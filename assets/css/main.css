@@ -20,7 +20,9 @@
 :root {
   --color-default: #2b180d;
   --color-primary: #56b8e6;
-  --color-secondary: #1b2f45;
+  /* --color-secondary: #1b2f45; */
+  --color-secondary: #0E2A47;
+  
 }
 
 /* Smooth scroll behavior */
@@ -111,6 +113,7 @@ section {
 }
 
 .section-header h2 {
+  color:white;
   margin-top: 42px;
   font-size: 32px;
   font-weight: 600;
@@ -134,6 +137,7 @@ section {
 
 .section-header p {
   margin-bottom: 0;
+  color: rgb(231, 231, 231);
 }
 
 /*--------------------------------------------------------------
@@ -1193,6 +1197,14 @@ section {
 }
 
 
+/* testimonial  */
+
+/* stestimonials end */
+/* maps */
+.maps{
+  background: url("../img/Laboratorios/Simple\ Shiny\ \(2\).svg");
+}
+/* end maps */
 
 /*--------------------------------------------------------------
 # Footer
@@ -1203,9 +1215,13 @@ section {
 
 .footer .footer-content {
   margin-top: 49px;
-  background-color: #f7f9fc;
+  background: url("../img/Laboratorios/Simple\ Shiny\ \(1\).svg");
   background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 60px 0 30px 0;
+ 
+  position: relative;
 }
 
 .footer .footer-content .footer-info {
