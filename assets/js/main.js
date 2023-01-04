@@ -7,6 +7,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
+
+
   /**
    * Preloader
    */
@@ -194,4 +196,10 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 
+});
+const navLinks = document.querySelectorAll('.navbar a');
+navLinks.forEach(link => {
+  link.addEventListener('click', function() {
+    document.querySelector('.navbar').style.display = 'none';
+  });
 });
