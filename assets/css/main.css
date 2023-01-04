@@ -113,7 +113,7 @@ section {
 }
 
 .section-header h2 {
-  color:white;
+  color:var(--color-primary);
   margin-top: 42px;
   font-size: 32px;
   font-weight: 600;
@@ -800,7 +800,7 @@ section {
 }
 
 .call-to-action h3 {
-  color: #fff;
+  color: var(--color-primary);
   font-size: 28px;
   margin-bottom: 25px;
   font-weight: 700;
@@ -1242,7 +1242,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-family: var(--font-secondary);
   margin-top: 3px;
 }
@@ -1251,7 +1251,7 @@ section {
   font-size: 15px;
   margin-bottom: 0;
   font-family: var(--font-primary);
-  color: var(--color-secondary);
+  color:white;
 }
 
 .footer .footer-content .social-links a {
@@ -1278,7 +1278,7 @@ section {
 .footer .footer-content h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #29486a;
+  color: var(--color-primary);
   position: relative;
   padding-bottom: 12px;
 }
@@ -1323,7 +1323,7 @@ section {
 
 .footer .footer-content .footer-contact p {
   line-height: 26px;
-  color: var(--color-secondary);
+  color: white;;
 }
 
 .footer .footer-legal {
