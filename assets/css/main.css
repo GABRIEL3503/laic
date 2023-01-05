@@ -445,13 +445,14 @@ section {
 --------------------------------------------------------------*/
 @media (max-width: 1279px) {
   .navbar {
+    height: 350px;;
     position: fixed;
     top: 0;
     right: -100%;
     width: 100%;
     max-width: 400px;
     bottom: 0;
-    transition: 0.3s;
+    transition: 0.7s;
     z-index: 9997;
   }
 
@@ -536,13 +537,7 @@ section {
     right: 0;
   }
 
-  .mobile-nav-active .navbar:before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background: rgba(27, 47, 69, 0.7);
-    z-index: 9996;
-  }
+  
 }
 
 /*--------------------------------------------------------------
