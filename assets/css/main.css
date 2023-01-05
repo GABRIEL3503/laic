@@ -83,7 +83,7 @@ h6 {
   margin-top: 36px;
 }
 .pad .social-links i {
-  color: #56b8e6;
+  color:#1c88ba;
   margin-top: 9px;
   margin-left: 9px;
   font-size: 37px;
@@ -452,7 +452,7 @@ section {
     width: 100%;
     max-width: 400px;
     bottom: 0;
-    transition: 0.7s;
+    transition: 0.s;
     z-index: 9997;
   }
 
