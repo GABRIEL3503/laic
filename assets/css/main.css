@@ -560,7 +560,8 @@ section {
     position: absolute;
     content: "";
     width: 40%;
-    background: var(--color-secondary);
+    background-image: url(../img/Animated\ Shape.svg);
+    /* background: var(--color-secondary); */
     top: 0;
     bottom: 0;
   }
@@ -1197,7 +1198,7 @@ section {
 /* stestimonials end */
 /* maps */
 .maps{
-  background: url("../img/Laboratorios/Simple\ Shiny\ \(2\).svg");
+  background-image: url(../img/Animated\ Shape\ \(2\).svg);
 }
 /* end maps */
 
@@ -1210,7 +1211,7 @@ section {
 
 .footer .footer-content {
   margin-top: 49px;
-  background: url("../img/Laboratorios/Simple\ Shiny\ \(1\).svg");
+  background-image: url(../img/Animated\ Shape\ \(2\).svg);
   background-size: contain;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1349,4 +1350,126 @@ section {
   margin-top: 17px;
   margin-bottom: -11px;
   font-size: 15px;
+}
+
+
+.redes ul {
+  
+  margin-top: 18px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  margin-right: 168px;
+  padding:0;
+  display:flex;
+}
+.redes ul li {
+  list-style:none;
+}
+.redes ul li a {
+  display: block;
+  position: relative;
+  width: 63px;
+  height: 58px;
+  line-height: 60px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #104078;
+  margin: 0 30px;
+  transition: .5s;
+}
+.redes ul li a span {
+  position:absolute;
+  transition: transform .5s;
+}
+.redes ul li a span:nth-child(1),
+ul li a span:nth-child(3){
+  width:100%;
+  height:3px;
+  background: #104078;
+}
+.redes ul li a span:nth-child(1) {
+  top:0;
+  left:0;
+  transform-origin: right;
+}
+.redes ul li a:hover span:nth-child(1) {
+  transform: scaleX(0);
+  transform-origin: left;
+  transition:transform .5s;
+}
+
+.redes ul li a span:nth-child(3) {
+  bottom:0;
+  left:0;
+  transform-origin: left;
+}
+.redes ul li a:hover span:nth-child(3) {
+  transform: scaleX(0);
+  transform-origin: right;
+  transition:transform .5s;
+}
+
+.redes ul li a span:nth-child(2),
+ul li a span:nth-child(4){
+  width:3px;
+  height:100%;
+  
+}
+.redes ul li a span:nth-child(2) {
+  top:0;
+  left:0;
+  transform:scale(0);
+  transform-origin: bottom;
+}
+.redes ul li a:hover span:nth-child(2) {
+  transform: scale(1);
+  transform-origin: top;
+  transition:transform .5s;
+}
+.redes ul li a span:nth-child(4) {
+  top:0;
+  right:0;
+  transform:scale(0);
+  transform-origin: top;
+}
+.redes ul li a:hover span:nth-child(4) {
+  transform: scale(1);
+  transform-origin: bottom;
+  transition:transform .5s;
+}
+
+.facebook:hover {
+  color: #1da1f2;
+}
+.facebook:hover span { 
+  background:  #1da1f2;
+}
+.twitter:hover {
+  color: #1da1f2;
+}
+.twitter:hover span { 
+  background: #1da1f2;
+}
+.instagram:hover {
+  color:  #1da1f2;
+}
+.instagram:hover span { 
+  background:  #1da1f2;
+}
+.google:hover {
+  color:  #1da1f2;
+}
+.google:hover span { 
+  background:  #1da1f2;
+}
+.redes ul li a .twitter {
+  color: #1da1f2;
+}
+.redes ul li a:hover:nth-child(3) {
+  color:  #1da1f2;
+}
+.redes ul li a:hover:nth-child(4) {
+  color:  #1da1f2;
 }
