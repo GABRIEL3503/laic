@@ -80,7 +80,7 @@ h6 {
   font-size: 15px;
 }
 .about{
-  margin-top: 36px;
+  margin-top: 0px;
 }
 .pad .social-links i {
   color:#1c88ba;
@@ -92,13 +92,14 @@ h6 {
   color: #1c88ba; 
 }
 .pad{
-  padding: 45px;
+  padding: -9px;
 }
 .fonte{
   font-weight: 700;
   color: var(--color-secondary)
 }
 .foto-perso{
+  max-height: 416px;
   max-width: 100%;
 }
 
@@ -154,7 +155,7 @@ section {
 
 .breadcrumbs:before {
   content: "";
-  background-color: rgba(27, 47, 69, 0.7);
+  /* background-color: rgba(27, 47, 69, 0.7); */
   position: absolute;
   inset: 0;
 }
@@ -301,7 +302,7 @@ section {
 }
 
 .header.sticked {
-  background: rgba(27, 47, 69, 0.9);
+  background: rgb(7 55 114);
   padding: 12px 0;
 }
 
@@ -669,12 +670,13 @@ section {
 }
 
 .why-us .img-bg {
-  min-height: 500px;
+  min-height: 397px;
   background-size: cover;
 }
 
 .why-us .slides {
   background-color: #f7f9fc;
+  height: 404px;
 }
 
 .why-us h3 {
@@ -691,7 +693,7 @@ section {
 }
 
 .why-us .swiper {
-  margin: 140px 140px 120px 140px;
+  margin: 106px 140px 120px 140px;
   overflow: hidden;
 }
 
@@ -782,9 +784,9 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)), url("../img/Laboratorios/z.jpg") center center;
+  background: linear-gradient(rgba(1, 18, 36, 0.8), rgba(27, 47, 69, 0.8)), url("../img/Laboratorios/z.jpg") center center;
   background-size: cover;
-  padding: 100px 0;
+  padding: 62px 0;
    margin-top: 17px;
    background-attachment: fixed;
 }
@@ -1359,7 +1361,7 @@ section {
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
-  margin-right: 168px;
+  margin-right: 233px;
   padding:0;
   display:flex;
 }
@@ -1369,14 +1371,14 @@ section {
 .redes ul li a {
   display: block;
   position: relative;
-  width: 63px;
+  width: 50px;
   height: 58px;
   line-height: 60px;
   font-size: 30px;
   text-align: center;
   text-decoration: none;
-  color: #104078;
-  margin: 0 30px;
+  color: #1da1f2;
+  margin: 0 20px;
   transition: .5s;
 }
 .redes ul li a span {
@@ -1387,7 +1389,7 @@ section {
 ul li a span:nth-child(3){
   width:100%;
   height:3px;
-  background: #104078;
+  background: #1da1f2;
 }
 .redes ul li a span:nth-child(1) {
   top:0;
@@ -1441,35 +1443,35 @@ ul li a span:nth-child(4){
 }
 
 .facebook:hover {
-  color: #1da1f2;
+  color: #073772;
 }
 .facebook:hover span { 
-  background:  #1da1f2;
+  background:  #073772;
 }
 .twitter:hover {
-  color: #1da1f2;
+  color: #073772;
 }
 .twitter:hover span { 
-  background: #1da1f2;
+  background: #073772;
 }
 .instagram:hover {
-  color:  #1da1f2;
+  color:  #073772;
 }
 .instagram:hover span { 
-  background:  #1da1f2;
+  background:  #073772;
 }
 .google:hover {
-  color:  #1da1f2;
+  color:  #073772;
 }
 .google:hover span { 
-  background:  #1da1f2;
+  background:  #073772;
 }
 .redes ul li a .twitter {
-  color: #1da1f2;
+  color: #073772;
 }
 .redes ul li a:hover:nth-child(3) {
-  color:  #1da1f2;
+  color:  #073772;
 }
 .redes ul li a:hover:nth-child(4) {
-  color:  #1da1f2;
+  color:  #073772;
 }
