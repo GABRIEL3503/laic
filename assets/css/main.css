@@ -765,7 +765,7 @@ section {
   font-size: 32px;
   line-height: 0;
   margin-right: 20px;
-  color: #38618e;
+ 
 }
 
 .services-list .service-item .title {
@@ -1399,4 +1399,20 @@ P{
 
     .maps h2{
       color: white!important;
+    }
+
+    .icon i{
+
+      background: linear-gradient(90deg, rgba(7,55,114,1) 33%, rgba(22,101,195,1) 87%);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .description{
+      color: #313538;
+    font-weight: bold;
+    }
+
+    h4{
+      color: #1665c3;
     }
